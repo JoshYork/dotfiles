@@ -85,3 +85,6 @@ source $ZSH/oh-my-zsh.sh
 
 export NVM_DIR="/Users/joshyork/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# z file jumping
+. $HOME/z.sh
