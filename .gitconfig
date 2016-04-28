@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Josh York
+#	email = jyork@nerdery.com
+[user]
+	name = Josh York
+	email = jyork@nerdery.com
+[alias]
+	s = status
