@@ -8,3 +8,5 @@
 	email = jyork@nerdery.com
 [alias]
 	s = status
+[push]
+	default = simple
