@@ -50,7 +50,11 @@ DEFAULT_USER="$USER"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git tmux)
+
+# Tmux options
+ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_AUTOCONNECT=false
 
 # User configuration
 
@@ -83,6 +87,18 @@ source $ZSH/oh-my-zsh.sh
 # ALIASES
 # 'a' opens atom in the pwd
 alias a='atom .'
+
+# visual studio code
+function code {
+    if [[ $# = 0 ]]
+    then
+        open -a "Visual Studio Code"
+    else
+        local argPath="$1"
+        [[ $1 = /* ]] && argPath="$1" || argPath="$PWD/${1#./}"
+        open -a "Visual Studio Code" "$argPath"
+    fi
+}
 
 # NVM
 export NVM_DIR="/Users/joshyork/.nvm"
