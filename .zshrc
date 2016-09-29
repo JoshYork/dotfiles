@@ -92,7 +92,7 @@ alias a='atom .'
 function code {
     if [[ $# = 0 ]]
     then
-        open -a "Visual Studio Code"
+        open -a "Visual Studio Code" "."
     else
         local argPath="$1"
         [[ $1 = /* ]] && argPath="$1" || argPath="$PWD/${1#./}"
