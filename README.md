@@ -4,3 +4,4 @@ Things to do / install on new machine (somewhat in order).
 - install [homebrew](https://brew.sh)
 - install yadm `brew install yadm`
 - pull down dotfiles `yadm clone https://github.com/JoshYork/dotfiles`
+- Show hidden files in finder `defaults write com.apple.finder AppleShowAllFiles YES`
