@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/joshyork/.oh-my-zsh
+export ZSH=/Users/jyork/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -101,7 +101,7 @@ function code {
 }
 
 # NVM
-export NVM_DIR="/Users/joshyork/.nvm"
+export NVM_DIR="/Users/jyork/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # z file jumping
