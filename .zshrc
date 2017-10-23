@@ -88,6 +88,10 @@ source $ZSH/oh-my-zsh.sh
 # 'a' opens atom in the pwd
 alias a='atom .'
 
+function killPort {
+    kill $(lsof -ti tcp:$1)
+}
+
 # visual studio code
 function code {
     if [[ $# = 0 ]]
