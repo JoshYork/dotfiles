@@ -7,3 +7,7 @@
 	default = simple
 [credential]
 	helper = osxkeychain
+[pull]
+	rebase = true
+[core]
+	excludesfile = /Users/jyork/.gitignore_global

@@ -110,3 +110,4 @@ export NVM_DIR="/Users/jyork/.nvm"
 
 # z file jumping
 . $HOME/z.sh
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
